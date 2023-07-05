@@ -29,7 +29,6 @@ function moveContainer() {
     document.getElementById('button').innerHTML = "Press Me";
   }
   
-  
   box.style.left = randomX + 'px';
   box.style.top = randomY + 'px';
   box.style.transition = 'left 0.5s ease-in-out, top 0.5s ease-in-out';
